@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Shell</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="app">
+        <div id="top-bar">
+            <h1 id="app-title">Movie Shell</h1>
+            <div id="search-container">
+                <input type="text" id="search-input" placeholder="Search movies or series...">
+                <i class="fas fa-search" id="search-icon"></i>
+            </div>
+            <button id="aboutIcon" class="icon-button" title="About">
+                <i class="fas fa-info-circle"></i>
+            </button>
+        </div>
+
+        <div id="main-content">
+            <div id="poster-grid-view" class="view active">
+                <div id="poster-grid-container">
+                    <div class="loading-indicator">Loading media...</div>
+                </div>
+            </div>
+        </div>
+
+        <div id="detail-view" class="view hidden">
+            <button class="back-button" id="detail-back-button">
+                <i class="fas fa-arrow-left"></i> Back to Home
+            </button>
+            <div id="detail-content">
+                <div id="detail-media-panel">
+                    <img id="detail-poster" src="" alt="Media Poster" class="hidden">
+                    <div id="no-poster-placeholder" class="placeholder hidden">No Poster Available</div>
+                </div>
+                <div id="detail-info-panel">
+                    <h2 id="detail-title"></h2>
+                    <p id="detail-year"></p>
+                    <div id="detail-buttons">
+                        <button id="play-button" class="action-button">
+                            <i class="fas fa-play"></i> Play
+                        </button>
+                        <button id="trailer-button" class="action-button">
+                            <i class="fas fa-film"></i> Watch Trailer
+                        </button>
+                    </div>
+
+                    <div class="detail-separator-line"></div>
+
+                    <p id="detail-description"></p>
+
+                    <div id="series-info" class="hidden">
+                        <h2>Seasons</h2>
+                        <select id="season-selector"></select>
+                        <ul id="episodes-list">
+                            </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="player-view" class="view hidden">
+            <div id="player-back-bar" style="display: flex; align-items: center; justify-content: space-between; padding: 10px; background: rgba(0,0,0,0.7); position: absolute; top: 0; left: 0; right: 0; z-index: 10;">
+                <button class="back-button" id="player-back-button">
+                    <i class="fas fa-arrow-left"></i> Back
+                </button>
+                <h3 id="player-title" style="flex-grow: 1; text-align: center; margin: 0 10px;"></h3>
+                <button id="cc-button" class="icon-button hidden" title="Toggle Subtitles" style="margin-left: auto;">
+                    CC <i class="fas fa-closed-captioning"></i>
+                </button>
+            </div>
+            <div id="video-container">
+                <iframe id="trailer-iframe-container" frameborder="0" allowfullscreen class="hidden"></iframe>
+                <video id="local-video-player" controls autoplay class="hidden"></video>
+            </div>
+        </div>
+
+        <div id="aboutModal" class="about-modal hidden">
+            <div class="about-modal-content">
+                <button id="closeAboutModal" class="close-button" title="Close">×</button>
+                <h2>About <span id="aboutAppName"></span></h2>
+                <p><strong>Developer:</strong> <span id="aboutDeveloper"></span></p>
+                <p><strong>Version:</strong> <span id="aboutVersion"></span></p>
+                <p><strong>Website:</strong> <span id="aboutWebsite"></span></p>
+                <p><strong>Release Date:</strong> <span id="aboutReleaseDate"></span></p>
+                <p><strong>Description:</strong> <span id="aboutDescription"></span></p>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

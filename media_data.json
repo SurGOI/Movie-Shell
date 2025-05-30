@@ -1,0 +1,15 @@
+{
+    "movies": [
+        {
+            "id": "robin_hood_1973",
+            "title": "Disney Robin Hood",
+            "year": "1973",
+            "type": "movie",
+            "poster": "/posters/robin_hood_1973.jpg",
+            "description": "An animated musical adventure from Disney, featuring the legendary Robin Hood as a fox, Maid Marian as a vixen, and Little John as a bear, in a whimsical retelling of the classic tale.",
+            "trailer_url": "https://www.youtube.com/embed/S2X3G-4sN20?autoplay=1",
+            "local_video_path": null
+        }
+    ],
+    "series": []
+}

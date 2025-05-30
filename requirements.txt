@@ -1,0 +1,2 @@
+pywebview
+auto-py-to-exe # for making a exe file

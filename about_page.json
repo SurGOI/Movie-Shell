@@ -1,0 +1,9 @@
+{
+  "appName": "Movie Shell",
+  "version": "1.0.0",
+  "developer": "SurGOI",
+  "releaseDate": "June 2025",
+  "description": "This application allows you to browse and play movies and series from your local collection. It's designed for a desktop environment, leveraging web technologies (HTML, CSS, JavaScript) for the user interface and a Python backend for media management and file serving.",
+  "contact": "info.surgoi@gmail.com",
+  "website": "https://surgoi.github.io/SurGOI/"
+}

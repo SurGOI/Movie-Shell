@@ -1,0 +1,106 @@
+{
+  "movies": {
+    " Disney Robin Hood (1973)": {
+      "title": "Robin Hood",
+      "type": "movie",
+      "poster": "images/robin_hood_1973_poster.png",
+      "video_path": "movies/robin_hood_1973.mp4",
+      "trailer_path": "https://www.youtube-nocookie.com/embed/gzESAbBo08c?playlist=gzESAbBo08c&autoplay=1&iv_load_policy=3&loop=1&start=",
+      "year": 1973,
+      "description": "A furry, oversized rabbit named Big Buck Bunny enjoys a peaceful day until he is harassed by a trio of bullies: a flying squirrel, a chinchilla, and a weasel. This is a very long description to test scrolling in the detail view. A furry, oversized rabbit named Big Buck Bunny enjoys a peaceful day until he is harassed by a trio of bullies: a flying squirrel, a chinchilla, and a weasel."
+    },
+    "Disney The Jungle Book (1967)": {
+      "title": "The Jungle Book",
+      "type": "movie",
+      "poster": "images/junglebook_1967_poster.png",
+      "video_path": "movies/junglebook_1967.mp4",
+      "trailer_path": "https://www.youtube-nocookie.com/embed/kxJlYHxm9CM?playlist=kxJlYHxm9CM&autoplay=1&iv_load_policy=3&loop=1&start=",
+      "year": 1967,
+      "description": "Mowgli, a human boy raised by wolves, is urged by his animal friends to leave the jungle before the return of the fearsome tiger Shere Khan. This classic animated musical adventure from Disney features memorable songs and beloved characters like Baloo the bear and Bagheera the panther."
+    },
+    "Disney Make Mine Music (1946)": {
+      "title": "Make Mine Music",
+      "year": "1946",
+      "poster": "images/make_mine_music_1946_poster.png",
+      "video_path": "movies/make_mine_music_1946.mp4",
+      "type": "movie",
+      "description": "An animated anthology of ten musical shorts from Walt Disney Animation Studios, featuring a variety of styles and stories.",
+      "trailer_path": "https://www.youtube-nocookie.com/embed/1N_3g1xPf7g?playlist=1N_3g1xPf7g&autoplay=1&iv_load_policy=3&loop=1&start="
+    },
+	"Disney Pinocchio 1940": {
+		"title": "Pinocchio",
+		"year": "1940",
+		"poster": "images/pinocchio_1940_poster.png",
+		"video_path": "movies/pinocchio_1940.mp4",
+		"type": "movie",
+		"description": "Pinocchio tells the story of a wooden puppet, carved by a kindly old wood-carver named Geppetto, who is brought to life by a blue fairy. The fairy promises Pinocchio that he can become a real boy if he proves himself brave, truthful, and unselfish. Guided by his conscience, Jiminy Cricket, Pinocchio embarks on a series of adventures that test his character, encountering temptations and dangers that lead him astray before he learns the true meaning of honesty and selflessness.",
+		"trailer_path": "https://www.youtube-nocookie.com/embed/GBgyVY_ClzQ?playlist=GBgyVY_ClzQ&autoplay=1&iv_load_policy=3&loop=1&start="
+	}
+  },
+  "series": {
+    "Robon Hood S1": {
+      "title": "Robin Hood",
+      "type": "series",
+      "poster": "images/robin_hood_s1-1-7.png",
+      "trailer_path": "https://www.youtube-nocookie.com/embed/su00WMqZGM4?playlist=su00WMqZGM4&autoplay=1&iv_load_policy=3&loop=1&start=",
+      "year": 2006,
+      "description": "In the year 1192, with King Richard the Lionheart off fighting the Crusades in the Holy Land, the treacherous Sheriff of Nottingham, Vaisey, rules his domain with an iron fist, imposing crushing taxes and brutal justice upon the impoverished common folk. When Robin of Locksley, a courageous and compassionate nobleman, returns home from the Crusades, he finds his village ravaged, his people starving, and his lands seized by the Sheriff. Unable to stand by and watch his people suffer, Robin renounces his privileged life and takes to Sherwood Forest, transforming into the legendary outlaw, Robin Hood.  Alongside his loyal band of outlaws – including the fiercely independent Maid Marian, the stoic Little John, the wise Much, the hot-headed Allan A Dale, and the resourceful Will Scarlett – Robin wages a personal war against the Sheriff and his cruel deputies. From daring heists and thrilling escapes to strategic ambushes and battles for justice, Season 1 follows Robin and his gang as they strive to protect the innocent, redistribute wealth, and ultimately, undermine the Sheriff's tyranny, all while awaiting the true king's return. The series blends historical adventure with contemporary themes, offering a fresh, action-packed, and often humorous take on the enduring legend.",
+	  "seasons": {
+        "1": {
+          "episodes": {
+            "Will You Tolerate This?": {
+              "video_path": "series/robin hood/season 1/episode 1/Will_You_Tolerate_This.mp4",
+			  "subtitle_path": "S01E01_Robin_Hood_Will_You_Tolerate_This.srt",
+              "duration": "44m"
+            },
+            "Sheriff Got Your Tongue?": {
+              "video_path": "series/robin hood/season 1/episode 2/Sheriff_Got_Your_Tongue.mp4",
+			  "subtitle_path": "",
+              "duration": "47m"
+            },
+            "Sheriff Got Your Tongue?": {
+              "video_path": "series/robin hood/season 1/episode 3/Who_Shot_the_Sheriff.mp4",
+			  "subtitle_path": "",
+              "duration": "47m"
+            },
+            "Sheriff Got Your Tongue?": {
+              "video_path": "series/robin hood/season 1/episode 4/Parent_Hood.mp4",
+			  "subtitle_path": "",
+              "duration": "47m"
+            }
+          }
+        }
+      }
+    },
+    "The Mandalorian": {
+      "title": "The Mandalorian",
+      "type": "series",
+      "poster": "images/mandalorian_poster.png",
+      "trailer_path": "https://www.youtube-nocookie.com/embed/aOC8E8z_ifw?playlist=aOC8E8z_ifw&autoplay=1&iv_load_policy=3&loop=1&start=",
+      "year": 2019,
+      "description": "The Mandalorian, or Din Djarin, is a lone bounty hunter who travels the outer reaches of the galaxy, far from the authority of the New Republic. He encounters Grogu, a Force-sensitive infant, and becomes his protector, embarking on adventures across the galaxy.",
+      "seasons": {
+        "1": {
+          "episodes": {
+            "Chapter 1: The Mandalorian": {
+              "video_path": "series/mandalorian/season 1/episode 1/episode_1.mp4",
+              "duration": "39m"
+            },
+            "Chapter 2: The Child": {
+              "video_path": "series/mandalorian/season 1/episode 2/episode_2.mp4",
+              "duration": "32m"
+            }
+          }
+        },
+        "2": {
+          "episodes": {
+            "Chapter 9: The Marshal": {
+              "video_path": "series/mandalorian/season 2/episode 1/episode_1.mp4",
+              "duration": "53m"
+            }
+          }
+        }
+      }
+    }
+  }
+}

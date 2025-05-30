@@ -1,0 +1,39 @@
+./ROOT/
+   |-- main.py
+   |-- movies.json // supplied by user (needed) if not exits create a dummy file with 2 movie examples (for images use default.png) and 2 dummy series (use default.png)
+   |-- about_page.json
+   |
+   |-- html/
+   |    |-- index.html
+   |    |-- style.css
+   |    |-- script.js
+   |
+   |-- images/ // supplied by the user
+   |        |-- *.png
+   |
+   |-- trailers/ (optional) supplied by user
+   |        |-- *.mp4
+   |
+   |-- movies/
+   |        |-- *.mp4
+   |
+   |-- series/ // supplied by user
+         |-- mandalorian/
+         |              |-- season <int>/
+         |              |            |-- *.mp4
+         |              |-- season <int>/
+         |              |           |-- *.mp4
+         |              |-- etc.
+         |
+         |-- breakingbad/
+         |              |-- season <int>/
+         |              |            |-- *.mp4
+         |              |-- season <int>/
+         |              |           |-- *.mp4
+         |              |-- etc.
+         |-- etc.
+		 
+		 
+		 
+		 
+https://en.wikipedia.org/wiki/List_of_Robin_Hood_(2006_TV_series)_episodes
